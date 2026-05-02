@@ -1,0 +1,564 @@
+[2026-03-18 12:39:56] [32minfo[39m: Socket.io initialized
+[2026-03-18 12:40:04] [31merror[39m: MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-18 12:40:26] [31merror[39m: MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-18 12:45:34] [32minfo[39m: Socket.io initialized
+[2026-03-18 12:46:04] [31merror[39m: MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-18 12:51:32] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 12:51:44] [32minfo[39m: Socket.io initialized
+[2026-03-18 12:51:44] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 12:51:44] [32minfo[39m: 🚀 Server running on port 5001 [development]
+[2026-03-18 12:51:44] [32minfo[39m: 📡 Socket.io ready for real-time connections
+[2026-03-18 12:51:44] [32minfo[39m: 🔗 Health check: http://localhost:5001/health
+[2026-03-18 12:52:03] [32mhttp[39m: ::1 - - [18/Mar/2026:07:22:03 +0000] "GET /analytics.html HTTP/1.1" 200 26363 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 12:52:04] [32mhttp[39m: ::1 - - [18/Mar/2026:07:22:04 +0000] "GET /favicon.ico HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 12:54:44] [33mwarn[39m: SIGINT received — shutting down gracefully
+[2026-03-18 12:55:25] [32minfo[39m: Socket.io initialized
+[2026-03-18 12:55:25] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 12:55:25] [32minfo[39m: 🚀 Server running on port 5001 [development]
+[2026-03-18 12:55:25] [32minfo[39m: 📡 Socket.io ready for real-time connections
+[2026-03-18 12:55:25] [32minfo[39m: 🔗 Health check: http://localhost:5001/health
+[2026-03-18 12:56:00] [32mhttp[39m: ::1 - - [18/Mar/2026:07:26:00 +0000] "GET /analytics.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 12:57:12] [32mhttp[39m: ::1 - - [18/Mar/2026:07:27:12 +0000] "GET /analytics.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:21:43] [32minfo[39m: Socket.io initialized
+[2026-03-18 14:21:43] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 14:21:43] [32minfo[39m: 🚀 Server running on port 5001 [development]
+[2026-03-18 14:21:43] [32minfo[39m: 📡 Socket.io ready for real-time connections
+[2026-03-18 14:21:43] [32minfo[39m: 🔗 Health check: http://localhost:5001/health
+[2026-03-18 14:23:46] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 14:24:13] [32minfo[39m: Socket connected: BYKFLKmHQKIrU9NsAAAC — total: 1
+[2026-03-18 14:24:29] [32minfo[39m: User logged in: admin@inventory.com
+[2026-03-18 14:24:29] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:29 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:29] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:29 +0000] "GET /api/auth/me HTTP/1.1" 200 225 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:29] [32minfo[39m: Socket connected: OEFDgTAsu98n0EXxAAAF — total: 2
+[2026-03-18 14:24:30] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:30 +0000] "GET /api/inventory HTTP/1.1" 200 3507 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:30] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:30 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:43] [32minfo[39m: Socket disconnected: OEFDgTAsu98n0EXxAAAF — reason: client namespace disconnect
+[2026-03-18 14:24:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:43 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:43 +0000] "GET /api/billing HTTP/1.1" 200 13926 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:43 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:54:43 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:24:43] [32minfo[39m: Socket connected: BY_lDA-jJHhAhh35AAAI — total: 2
+[2026-03-18 14:25:07] [32minfo[39m: Socket disconnected: BY_lDA-jJHhAhh35AAAI — reason: client namespace disconnect
+[2026-03-18 14:26:39] [32minfo[39m: Socket connected: H_mZr59yhwMiPdMbAAAL — total: 2
+[2026-03-18 14:26:39] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:39 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:39] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:39 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:43] [32minfo[39m: Socket disconnected: H_mZr59yhwMiPdMbAAAL — reason: client namespace disconnect
+[2026-03-18 14:26:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:43 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:43 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:43 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:43] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:43 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:43] [32minfo[39m: Socket connected: IhLsrA4HkrUerePzAAAO — total: 2
+[2026-03-18 14:26:47] [32minfo[39m: Socket disconnected: IhLsrA4HkrUerePzAAAO — reason: client namespace disconnect
+[2026-03-18 14:26:47] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:47 +0000] "GET /api/auth/users HTTP/1.1" 200 447 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:47] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:47 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:54] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:54 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:54] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:54 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:54] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:54 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:54] [32mhttp[39m: ::1 - - [18/Mar/2026:08:56:54 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:26:54] [32minfo[39m: Socket connected: 7xlzm74JrtlUqi7zAAAR — total: 2
+[2026-03-18 14:33:58] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 14:34:21] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 14:34:48] [32minfo[39m: Socket disconnected: BYKFLKmHQKIrU9NsAAAC — reason: transport close
+[2026-03-18 14:34:48] [32minfo[39m: Socket disconnected: 7xlzm74JrtlUqi7zAAAR — reason: transport close
+[2026-03-18 14:34:48] [32minfo[39m: Socket connected: iSeG7M_gTkZFlA1VAAAU — total: 1
+[2026-03-18 14:34:48] [32mhttp[39m: ::1 - - [18/Mar/2026:09:04:48 +0000] "GET /api/auth/me HTTP/1.1" 401 59 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:34:48] [32mhttp[39m: ::1 - - [18/Mar/2026:09:04:48 +0000] "GET /api/auth/me HTTP/1.1" 401 59 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:35:43] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:35:43] [32mhttp[39m: ::1 - - [18/Mar/2026:09:05:43 +0000] "POST /api/auth/login HTTP/1.1" 401 463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:36:37] [32minfo[39m: Socket disconnected: iSeG7M_gTkZFlA1VAAAU — reason: transport close
+[2026-03-18 14:36:37] [32minfo[39m: Socket connected: pV5kP4rKoGB4psi0AAAX — total: 1
+[2026-03-18 14:40:23] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:40:23] [32mhttp[39m: ::1 - - [18/Mar/2026:09:10:23 +0000] "POST /api/auth/login HTTP/1.1" 401 463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:42:42] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:42:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:12:42 +0000] "POST /api/auth/login HTTP/1.1" 401 463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:42:42] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:42:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:12:42 +0000] "POST /api/auth/login HTTP/1.1" 401 463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:44:32] [32minfo[39m: Socket disconnected: pV5kP4rKoGB4psi0AAAX — reason: transport close
+[2026-03-18 14:44:32] [32minfo[39m: Socket connected: eYOucUIaDp2hZV6AAAAa — total: 1
+[2026-03-18 14:44:58] [32mhttp[39m: ::1 - - [18/Mar/2026:09:14:58 +0000] "GET /images/products/almonds.png HTTP/1.1" 200 53157 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:44:58] [32minfo[39m: Socket disconnected: eYOucUIaDp2hZV6AAAAa — reason: transport close
+[2026-03-18 14:44:58] [32mhttp[39m: ::1 - - [18/Mar/2026:09:14:58 +0000] "GET /favicon.ico HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:45:12] [32mhttp[39m: ::1 - - [18/Mar/2026:09:15:12 +0000] "GET /images/products/cashews.png HTTP/1.1" 200 55073 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:45:29] [32minfo[39m: Socket connected: jFTGfklsVngmqNVNAAAd — total: 1
+[2026-03-18 14:49:11] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:49:11] [32mhttp[39m: ::1 - - [18/Mar/2026:09:19:11 +0000] "POST /api/auth/login HTTP/1.1" 401 463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:50:27] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:50:27] [32mhttp[39m: ::1 - - [18/Mar/2026:09:20:27 +0000] "POST /api/auth/login HTTP/1.1" 401 463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:51:38] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:51:38] [32mhttp[39m: ::1 - - [18/Mar/2026:09:21:38 +0000] "POST /api/auth/login HTTP/1.1" 401 463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:27] [32minfo[39m: User logged in: admin@inventory.com
+[2026-03-18 14:52:27] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:27 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:27] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:27 +0000] "GET /api/auth/me HTTP/1.1" 200 225 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:27] [32minfo[39m: Socket connected: hA-gnFcVk9DFmSpBAAAg — total: 2
+[2026-03-18 14:52:27] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:27 +0000] "GET /api/inventory HTTP/1.1" 200 5074 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:27] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:27 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:27] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:27 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:27] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:27 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:42] [32minfo[39m: Socket disconnected: hA-gnFcVk9DFmSpBAAAg — reason: client namespace disconnect
+[2026-03-18 14:52:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:42 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:42 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:42 +0000] "GET /api/billing HTTP/1.1" 200 10187 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:42 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:42 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:42] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:42 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:42] [32minfo[39m: Socket connected: IVJLN8TngLlxbuluAAAj — total: 2
+[2026-03-18 14:52:44] [32minfo[39m: Socket disconnected: IVJLN8TngLlxbuluAAAj — reason: client namespace disconnect
+[2026-03-18 14:52:44] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:44 +0000] "GET /api/auth/users HTTP/1.1" 200 238 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:44] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:44 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:50] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:50 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:50] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:50 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:50] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:50 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:50] [32mhttp[39m: ::1 - - [18/Mar/2026:09:22:50 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:52:50] [32minfo[39m: Socket connected: 2wU9CB562GfBmx4_AAAm — total: 2
+[2026-03-18 14:54:32] [32minfo[39m: Socket disconnected: jFTGfklsVngmqNVNAAAd — reason: transport close
+[2026-03-18 14:54:32] [32minfo[39m: Socket disconnected: 2wU9CB562GfBmx4_AAAm — reason: transport close
+[2026-03-18 14:54:32] [32mhttp[39m: ::1 - - [18/Mar/2026:09:24:32 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:54:32] [32mhttp[39m: ::1 - - [18/Mar/2026:09:24:32 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:54:32] [32minfo[39m: Socket connected: WBtbX0d-jMh78DYBAAAp — total: 1
+[2026-03-18 14:55:05] [32minfo[39m: User logged in: admin@inventory.com
+[2026-03-18 14:55:05] [32mhttp[39m: ::1 - - [18/Mar/2026:09:25:05 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:55:05] [32mhttp[39m: ::1 - - [18/Mar/2026:09:25:05 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:55:05] [32mhttp[39m: ::1 - - [18/Mar/2026:09:25:05 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:55:05] [32mhttp[39m: ::1 - - [18/Mar/2026:09:25:05 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:55:05] [32mhttp[39m: ::1 - - [18/Mar/2026:09:25:05 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:55:05] [32mhttp[39m: ::1 - - [18/Mar/2026:09:25:05 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:55:05] [32minfo[39m: Socket connected: Tm75Edi4A5NSO5twAAAs — total: 2
+[2026-03-18 14:56:32] [32minfo[39m: Socket.io initialized
+[2026-03-18 14:56:32] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 14:56:32] [32minfo[39m: 🚀 Server running on port 5001 [development]
+[2026-03-18 14:56:32] [32minfo[39m: 📡 Socket.io ready for real-time connections
+[2026-03-18 14:56:32] [32minfo[39m: 🔗 Health check: http://localhost:5001/health
+[2026-03-18 14:56:33] [32minfo[39m: Socket connected: aqD6O06PHkCRb1S4AAAB — total: 1
+[2026-03-18 14:56:36] [32minfo[39m: Socket connected: KGYYoW8x7TFfuHH5AAAD — total: 2
+[2026-03-18 14:57:24] [32minfo[39m: Socket disconnected: aqD6O06PHkCRb1S4AAAB — reason: transport close
+[2026-03-18 14:57:24] [32minfo[39m: Socket disconnected: KGYYoW8x7TFfuHH5AAAD — reason: transport close
+[2026-03-18 14:57:24] [32minfo[39m: Socket connected: Gc_AJC1mfY4cRckaAAAG — total: 1
+[2026-03-18 14:57:24] [32mhttp[39m: ::1 - - [18/Mar/2026:09:27:24 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:57:24] [32mhttp[39m: ::1 - - [18/Mar/2026:09:27:24 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:57:24] [32minfo[39m: Socket connected: kWPpE3Faw2C8Qb2-AAAJ — total: 2
+[2026-03-18 14:57:24] [32mhttp[39m: ::1 - - [18/Mar/2026:09:27:24 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:57:24] [32mhttp[39m: ::1 - - [18/Mar/2026:09:27:24 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:57:24] [32mhttp[39m: ::1 - - [18/Mar/2026:09:27:24 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:57:24] [32mhttp[39m: ::1 - - [18/Mar/2026:09:27:24 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:59:17] [32minfo[39m: Socket disconnected: kWPpE3Faw2C8Qb2-AAAJ — reason: client namespace disconnect
+[2026-03-18 14:59:17] [32minfo[39m: Socket connected: JqhxnAcQ1amXEBpSAAAL — total: 2
+[2026-03-18 14:59:17] [32mhttp[39m: ::1 - - [18/Mar/2026:09:29:17 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 14:59:20] [32minfo[39m: MongoDB connected: localhost
+[2026-03-18 15:02:02] [32minfo[39m: Socket disconnected: Gc_AJC1mfY4cRckaAAAG — reason: transport close
+[2026-03-18 15:02:02] [32minfo[39m: Socket disconnected: JqhxnAcQ1amXEBpSAAAL — reason: transport close
+[2026-03-18 15:02:02] [32minfo[39m: Socket connected: zRzG5pv99jvmsdHwAAAO — total: 1
+[2026-03-18 15:02:02] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:02 +0000] "GET /api/auth/me HTTP/1.1" 401 59 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:02:02] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:02 +0000] "GET /api/auth/me HTTP/1.1" 401 59 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:02:33] [32minfo[39m: User logged in: admin@inventory.com
+[2026-03-18 15:02:33] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:33 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:02:34] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:34 +0000] "GET /api/auth/me HTTP/1.1" 200 225 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:02:34] [32minfo[39m: Socket connected: CchnzG7LqSHA9pi8AAAR — total: 2
+[2026-03-18 15:02:34] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:34 +0000] "GET /api/inventory HTTP/1.1" 200 5074 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:02:34] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:34 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:02:34] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:34 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:02:34] [32mhttp[39m: ::1 - - [18/Mar/2026:09:32:34 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-18 15:10:20] [32minfo[39m: Socket disconnected: zRzG5pv99jvmsdHwAAAO — reason: transport close
+[2026-03-18 15:10:20] [32minfo[39m: Socket disconnected: CchnzG7LqSHA9pi8AAAR — reason: transport close
+[2026-03-18 15:10:22] [32minfo[39m: Socket connected: PI7s7cOv3RCe1P4hAAAT — total: 1
+[2026-03-18 15:10:22] [32minfo[39m: Socket connected: AR5lMiwRcUR4qmLkAAAV — total: 2
+[2026-03-19 07:04:55] [32minfo[39m: Socket disconnected: AR5lMiwRcUR4qmLkAAAV — reason: transport close
+[2026-03-19 07:04:55] [32minfo[39m: Socket disconnected: PI7s7cOv3RCe1P4hAAAT — reason: transport close
+[2026-03-19 07:04:56] [32minfo[39m: Socket connected: LW9rSiHivr5TMXVBAAAX — total: 1
+[2026-03-19 07:04:57] [32minfo[39m: Socket connected: uj0puYFJHJZA7bSUAAAZ — total: 2
+[2026-03-19 07:34:55] [32minfo[39m: Socket disconnected: LW9rSiHivr5TMXVBAAAX — reason: transport close
+[2026-03-19 07:34:55] [32minfo[39m: Socket disconnected: uj0puYFJHJZA7bSUAAAZ — reason: transport close
+[2026-03-19 07:34:56] [32minfo[39m: Socket connected: xjQtphk23_ouxZx4AAAb — total: 1
+[2026-03-19 07:34:57] [32minfo[39m: Socket connected: ewUiWJIug0iq5sk3AAAd — total: 2
+[2026-03-21 11:39:01] [33mwarn[39m: SIGINT received — shutting down gracefully
+[2026-03-21 11:39:01] [33mwarn[39m: SIGINT received — shutting down gracefully
+[2026-03-21 11:49:58] [33mwarn[39m: SIGINT received — shutting down gracefully
+[2026-03-21 11:49:58] [33mwarn[39m: SIGINT received — shutting down gracefully
+[2026-03-21 11:52:06] [33mwarn[39m: SIGINT received — shutting down gracefully
+[2026-03-21 11:52:06] [33mwarn[39m: SIGINT received — shutting down gracefully
+[2026-03-21 12:13:15] [32minfo[39m: MongoDB connected: localhost
+[2026-03-21 12:13:27] [32minfo[39m: Socket.io initialized
+[2026-03-21 12:13:27] [32minfo[39m: MongoDB connected: localhost
+[2026-03-21 12:13:27] [32minfo[39m: 🚀 Server running on port 5001 [development]
+[2026-03-21 12:13:27] [32minfo[39m: 📡 Socket.io ready for real-time connections
+[2026-03-21 12:13:27] [32minfo[39m: 🔗 Health check: http://localhost:5001/health
+[2026-03-21 12:13:30] [32minfo[39m: Socket connected: xWpyZka4hobMcg1UAAAB — total: 1
+[2026-03-21 12:13:32] [32minfo[39m: Socket connected: 6X0GnI_dkBByDjlzAAAD — total: 2
+[2026-03-21 12:14:18] [32minfo[39m: Socket connected: nDmwgI0MWc7FDSSlAAAG — total: 3
+[2026-03-21 12:14:18] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:18 +0000] "GET /api/auth/me HTTP/1.1" 401 59 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:14:18] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:18 +0000] "GET /api/auth/me HTTP/1.1" 401 59 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:14:37] [32minfo[39m: User logged in: admin@inventory.com
+[2026-03-21 12:14:37] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:37 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:14:37] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:37 +0000] "GET /api/auth/me HTTP/1.1" 200 225 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:14:37] [32minfo[39m: Socket connected: rSlSIk55S4JlnZ4yAAAJ — total: 4
+[2026-03-21 12:14:37] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:37 +0000] "GET /api/inventory HTTP/1.1" 200 5766 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:14:37] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:37 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:14:37] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:37 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:14:37] [32mhttp[39m: ::1 - - [21/Mar/2026:06:44:37 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:02] [32minfo[39m: Socket disconnected: rSlSIk55S4JlnZ4yAAAJ — reason: client namespace disconnect
+[2026-03-21 12:15:02] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:02 +0000] "GET /api/inventory/low-stock HTTP/1.1" 200 40 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:02] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:02 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:02] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:02 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:02] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:02 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:02] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:02 +0000] "GET /api/billing?limit=8 HTTP/1.1" 200 4106 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:02] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:02 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:18] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:18 +0000] "GET /api/locations HTTP/1.1" 200 448 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:18] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:18 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:26] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:26 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 200 81 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:26] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:26 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:35] [32minfo[39m: Socket connected: _k-qh1MCGAkiKRBHAAAM — total: 4
+[2026-03-21 12:15:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:35 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:35 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:35 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:15:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:45:35 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:00] [32minfo[39m: Socket disconnected: _k-qh1MCGAkiKRBHAAAM — reason: client namespace disconnect
+[2026-03-21 12:16:00] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:00 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:00] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:00 +0000] "GET /api/billing HTTP/1.1" 200 10160 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:00] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:00 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:00] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:00 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:00] [32minfo[39m: Socket connected: 1hW3SXQh_so4tltBAAAP — total: 4
+[2026-03-21 12:16:04] [32minfo[39m: Socket disconnected: 1hW3SXQh_so4tltBAAAP — reason: client namespace disconnect
+[2026-03-21 12:16:04] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:04 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:04] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:04 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:06] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:06 +0000] "GET /api/auth/users HTTP/1.1" 200 939 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:06] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:06 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:08] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:08 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:08] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:08 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:09] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:09 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:09] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:09 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:09] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:09 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:09] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:09 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:09] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:09 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:16:09] [32mhttp[39m: ::1 - - [21/Mar/2026:06:46:09 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:31] [32minfo[39m: Socket connected: RhREJH3h-6X4WWtQAAAS — total: 4
+[2026-03-21 12:22:31] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:31 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:31] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:31 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:31] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:31 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:31] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:31 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:35] [32minfo[39m: Socket disconnected: RhREJH3h-6X4WWtQAAAS — reason: client namespace disconnect
+[2026-03-21 12:22:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:35 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:35 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:35 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:35] [32minfo[39m: Socket connected: BnHerxNTg2P5svLLAAAV — total: 4
+[2026-03-21 12:22:35] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:35 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:46] [32minfo[39m: Socket disconnected: BnHerxNTg2P5svLLAAAV — reason: client namespace disconnect
+[2026-03-21 12:22:46] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:46 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:46] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:46 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:48] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:48 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:48] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:48 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:50] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:50 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:50] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:50 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:50] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:50 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:50] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:50 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:50] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:50 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:50] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:50 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32minfo[39m: Socket connected: R-tvDbfl-g81R4S6AAAY — total: 4
+[2026-03-21 12:22:51] [32minfo[39m: Socket disconnected: R-tvDbfl-g81R4S6AAAY — reason: client namespace disconnect
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32mhttp[39m: ::1 - - [21/Mar/2026:06:52:51 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:22:51] [32minfo[39m: Socket connected: O9uNjzaulGJsSC0HAAAb — total: 4
+[2026-03-21 12:23:23] [32minfo[39m: Socket disconnected: O9uNjzaulGJsSC0HAAAb — reason: client namespace disconnect
+[2026-03-21 12:23:23] [32mhttp[39m: ::1 - - [21/Mar/2026:06:53:23 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:23:23] [32mhttp[39m: ::1 - - [21/Mar/2026:06:53:23 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:23:23] [32minfo[39m: Socket connected: ZY2mgUyXpvTVtvdZAAAe — total: 4
+[2026-03-21 12:35:58] [32minfo[39m: Socket disconnected: ZY2mgUyXpvTVtvdZAAAe — reason: client namespace disconnect
+[2026-03-21 12:35:58] [32minfo[39m: Socket connected: 8QA5lr4J8_Zh8_1YAAAg — total: 4
+[2026-03-21 12:35:58] [32mhttp[39m: ::1 - - [21/Mar/2026:07:05:58 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:36] [32minfo[39m: Socket disconnected: 8QA5lr4J8_Zh8_1YAAAg — reason: client namespace disconnect
+[2026-03-21 12:36:36] [32minfo[39m: Socket connected: It1LYLbUpNfW_WPCAAAj — total: 4
+[2026-03-21 12:36:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:36 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:36 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:36 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:36 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:50] [32minfo[39m: Socket disconnected: It1LYLbUpNfW_WPCAAAj — reason: client namespace disconnect
+[2026-03-21 12:36:50] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:50 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:50] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:50 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:51] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:51 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:51] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:51 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:51] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:51 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:51] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:51 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:51] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:51 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:36:51] [32mhttp[39m: ::1 - - [21/Mar/2026:07:06:51 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:37:56] [32minfo[39m: Socket connected: DuwflO853JGQijHyAAAm — total: 4
+[2026-03-21 12:37:57] [32mhttp[39m: ::1 - - [21/Mar/2026:07:07:57 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:37:57] [32mhttp[39m: ::1 - - [21/Mar/2026:07:07:57 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:37:57] [32mhttp[39m: ::1 - - [21/Mar/2026:07:07:57 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:37:57] [32mhttp[39m: ::1 - - [21/Mar/2026:07:07:57 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:13] [32minfo[39m: Socket disconnected: DuwflO853JGQijHyAAAm — reason: client namespace disconnect
+[2026-03-21 12:38:13] [32minfo[39m: Socket connected: lyjCTw4rxxF6s39PAAAo — total: 4
+[2026-03-21 12:38:13] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:13 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:16] [32minfo[39m: Socket disconnected: lyjCTw4rxxF6s39PAAAo — reason: client namespace disconnect
+[2026-03-21 12:38:16] [32minfo[39m: Socket connected: wkOJVVn9o4aSIFhFAAAq — total: 4
+[2026-03-21 12:38:16] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:16 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:55] [32minfo[39m: Socket disconnected: wkOJVVn9o4aSIFhFAAAq — reason: client namespace disconnect
+[2026-03-21 12:38:55] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:55 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:55] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:55 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:55] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:55 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:55] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:55 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:55] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:55 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:55] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:55 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32minfo[39m: Socket disconnected: nDmwgI0MWc7FDSSlAAAG — reason: transport close
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32minfo[39m: Socket connected: _av19vwk8_WOKajkAAAt — total: 3
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:56 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:58] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:58 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:58] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:58 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:58] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:58 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:58] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:58 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:58] [32minfo[39m: Socket connected: fLaYILza5nlLwYTPAAAw — total: 4
+[2026-03-21 12:38:59] [32minfo[39m: Socket disconnected: fLaYILza5nlLwYTPAAAw — reason: client namespace disconnect
+[2026-03-21 12:38:59] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:59 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:59] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:59 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:59] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:59 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:59] [32mhttp[39m: ::1 - - [21/Mar/2026:07:08:59 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:38:59] [32minfo[39m: Socket connected: eNiwAD5qFIL205drAAAz — total: 4
+[2026-03-21 12:39:01] [32minfo[39m: Socket disconnected: eNiwAD5qFIL205drAAAz — reason: client namespace disconnect
+[2026-03-21 12:39:01] [32mhttp[39m: ::1 - - [21/Mar/2026:07:09:01 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:39:01] [32mhttp[39m: ::1 - - [21/Mar/2026:07:09:01 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:39:06] [31merror[39m: [PUT] /api/auth/users/69be3e04fe6261616c6f8773/role → 422: `stockManager` is not a valid enum value for path `role`.
+[2026-03-21 12:39:06] [32mhttp[39m: ::1 - - [21/Mar/2026:07:09:06 +0000] "PUT /api/auth/users/69be3e04fe6261616c6f8773/role HTTP/1.1" 422 732 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:44:10] [32mhttp[39m: ::1 - - [21/Mar/2026:07:14:10 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:44:21] [32mhttp[39m: ::1 - - [21/Mar/2026:07:14:21 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:44:21] [32mhttp[39m: ::1 - - [21/Mar/2026:07:14:21 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:08] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:08 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:08] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:08 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:08] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:08 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:08] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:08 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:08] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:08 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:08] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:08 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:36] [32minfo[39m: Socket connected: x9rC6UObSSdLgjIMAAA2 — total: 4
+[2026-03-21 12:45:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:36 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:36 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:36 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:36 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:36 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:36 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:36] [32minfo[39m: Socket connected: PiciFKMxInTkKQ5oAAA5 — total: 5
+[2026-03-21 12:45:37] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:37 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:37] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:37 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:37] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:37 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:37] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:37 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:37] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:37 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:37] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:37 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:41] [32minfo[39m: Socket disconnected: x9rC6UObSSdLgjIMAAA2 — reason: transport close
+[2026-03-21 12:45:41] [32minfo[39m: Socket disconnected: _av19vwk8_WOKajkAAAt — reason: transport close
+[2026-03-21 12:45:42] [32minfo[39m: Socket connected: 75rnSPK0wgE8t0JfAAA8 — total: 4
+[2026-03-21 12:45:42] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:42 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:42] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:42 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:42] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:42 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:42] [32mhttp[39m: ::1 - - [21/Mar/2026:07:15:42 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:45:48] [32minfo[39m: Socket disconnected: xWpyZka4hobMcg1UAAAB — reason: transport close
+[2026-03-21 12:45:48] [32minfo[39m: Socket disconnected: 6X0GnI_dkBByDjlzAAAD — reason: transport close
+[2026-03-21 12:46:22] [32minfo[39m: Socket disconnected: 75rnSPK0wgE8t0JfAAA8 — reason: client namespace disconnect
+[2026-03-21 12:46:22] [32mhttp[39m: ::1 - - [21/Mar/2026:07:16:22 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:46:22] [32mhttp[39m: ::1 - - [21/Mar/2026:07:16:22 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:11] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:11 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:11] [32minfo[39m: Socket connected: Ul1HIUvI5_M_XUQYAAA_ — total: 2
+[2026-03-21 12:47:11] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:11 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:11] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:11 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:11] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:11 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:52] [32minfo[39m: Socket disconnected: Ul1HIUvI5_M_XUQYAAA_ — reason: client namespace disconnect
+[2026-03-21 12:47:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:52 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:52 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:54] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:54 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:54] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:54 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:54] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:54 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:54] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:54 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:54] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:54 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:54] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:54 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:56 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:56 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:56 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:56] [32mhttp[39m: ::1 - - [21/Mar/2026:07:17:56 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:47:56] [32minfo[39m: Socket connected: HZBmu5hd4fTyYk2pAABC — total: 2
+[2026-03-21 12:48:25] [32minfo[39m: Socket disconnected: PiciFKMxInTkKQ5oAAA5 — reason: transport close
+[2026-03-21 12:48:25] [32minfo[39m: Socket disconnected: HZBmu5hd4fTyYk2pAABC — reason: transport close
+[2026-03-21 12:48:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:18:26 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:48:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:18:26 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:48:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:18:26 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:48:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:18:26 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:48:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:18:26 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:48:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:18:26 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:48:26] [32minfo[39m: Socket connected: H3ZKkocfgxRSUk-IAABH — total: 2
+[2026-03-21 12:48:26] [32minfo[39m: Socket connected: qf1ktebJM8Lih6R0AABI — total: 2
+[2026-03-21 12:51:22] [32minfo[39m: Socket disconnected: qf1ktebJM8Lih6R0AABI — reason: client namespace disconnect
+[2026-03-21 12:51:22] [32minfo[39m: Socket connected: 49aKrj0HANSbujEOAABK — total: 2
+[2026-03-21 12:51:22] [32mhttp[39m: ::1 - - [21/Mar/2026:07:21:22 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:54:10] [32minfo[39m: Socket disconnected: 49aKrj0HANSbujEOAABK — reason: client namespace disconnect
+[2026-03-21 12:54:10] [32minfo[39m: Socket connected: 2RbLfJFTfUjsPCbBAABM — total: 2
+[2026-03-21 12:54:10] [32mhttp[39m: ::1 - - [21/Mar/2026:07:24:10 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:54:10] [32mhttp[39m: ::1 - - [21/Mar/2026:07:24:10 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:54:10] [32mhttp[39m: ::1 - - [21/Mar/2026:07:24:10 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:55:47] [32mhttp[39m: ::1 - - [21/Mar/2026:07:25:47 +0000] "POST /api/upload HTTP/1.1" 404 57 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:56:13] [32mhttp[39m: ::1 - - [21/Mar/2026:07:26:13 +0000] "PUT /api/inventory/69be3e05fe6261616c6f877c HTTP/1.1" 200 564 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:57:27] [32minfo[39m: Socket disconnected: H3ZKkocfgxRSUk-IAABH — reason: transport close
+[2026-03-21 12:57:27] [32minfo[39m: Socket disconnected: 2RbLfJFTfUjsPCbBAABM — reason: transport close
+[2026-03-21 12:57:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:27:27 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:57:27] [32minfo[39m: Socket connected: _q-3j3rLXsTw6AXAAABP — total: 1
+[2026-03-21 12:57:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:27:27 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:57:27] [32minfo[39m: Socket connected: u1Tdt3iZ9JbPCHBwAABS — total: 2
+[2026-03-21 12:57:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:27:27 +0000] "GET /api/inventory HTTP/1.1" 200 5766 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:57:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:27:27 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:57:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:27:27 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:57:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:27:27 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:58:58] [32mhttp[39m: ::1 - - [21/Mar/2026:07:28:58 +0000] "POST /api/upload HTTP/1.1" 404 57 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 12:59:47] [33mwarn[39m: SIGTERM received — shutting down gracefully
+[2026-03-21 13:00:37] [32minfo[39m: Socket.io initialized
+[2026-03-21 13:00:37] [32minfo[39m: MongoDB connected: localhost
+[2026-03-21 13:00:37] [32minfo[39m: 🚀 Server running on port 5001 [development]
+[2026-03-21 13:00:37] [32minfo[39m: 📡 Socket.io ready for real-time connections
+[2026-03-21 13:00:37] [32minfo[39m: 🔗 Health check: http://localhost:5001/health
+[2026-03-21 13:00:59] [32mhttp[39m: ::1 - - [21/Mar/2026:07:30:59 +0000] "POST /api/upload HTTP/1.1" 401 54 "-" "curl/8.7.1"
+[2026-03-21 13:01:26] [32minfo[39m: Socket disconnected: _q-3j3rLXsTw6AXAAABP — reason: transport close
+[2026-03-21 13:01:27] [32minfo[39m: Socket connected: qQS6BZIW6CdpZosWAAAC — total: 1
+[2026-03-21 13:01:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:27 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:27 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:27] [32minfo[39m: Socket connected: QyCD19s1ZPEkE4T9AAAF — total: 2
+[2026-03-21 13:01:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:27 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:27 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:27 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:27] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:27 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:32] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:32 +0000] "POST /api/upload HTTP/1.1" 200 75 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:32] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:32 +0000] "GET /uploads/product-1774078292744-842304253.webp HTTP/1.1" 200 268014 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:44] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:44 +0000] "PUT /api/inventory/69be3e05fe6261616c6f877c HTTP/1.1" 200 520 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:59] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:59 +0000] "POST /api/upload HTTP/1.1" 200 75 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:01:59] [32mhttp[39m: ::1 - - [21/Mar/2026:07:31:59 +0000] "GET /uploads/product-1774078319643-769140372.webp HTTP/1.1" 200 268014 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:02:11] [32mhttp[39m: ::1 - - [21/Mar/2026:07:32:11 +0000] "PUT /api/inventory/69be3e05fe6261616c6f877c HTTP/1.1" 200 520 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:05:25] [32minfo[39m: Socket disconnected: QyCD19s1ZPEkE4T9AAAF — reason: client namespace disconnect
+[2026-03-21 13:05:25] [32minfo[39m: Socket connected: srN2jcfU3my8hi7PAAAH — total: 2
+[2026-03-21 13:05:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:35:26 +0000] "GET /api/inventory HTTP/1.1" 200 5722 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:05:48] [32minfo[39m: Socket disconnected: srN2jcfU3my8hi7PAAAH — reason: client namespace disconnect
+[2026-03-21 13:05:48] [32minfo[39m: Socket connected: eOKXveUV4pf898HIAAAJ — total: 3
+[2026-03-21 13:05:48] [32mhttp[39m: ::1 - - [21/Mar/2026:07:35:48 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:09:36] [32mhttp[39m: ::1 - - [21/Mar/2026:07:39:36 +0000] "PUT /api/inventory/69be3e05fe6261616c6f877c HTTP/1.1" 200 520 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:09:43] [32mhttp[39m: ::1 - - [21/Mar/2026:07:39:43 +0000] "POST /api/upload HTTP/1.1" 200 75 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:09:43] [32mhttp[39m: ::1 - - [21/Mar/2026:07:39:43 +0000] "GET /uploads/product-1774078783693-106177572.webp HTTP/1.1" 200 150082 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:09:46] [32mhttp[39m: ::1 - - [21/Mar/2026:07:39:46 +0000] "PUT /api/inventory/69be3e05fe6261616c6f877b HTTP/1.1" 200 529 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:30] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:30 +0000] "POST /api/upload HTTP/1.1" 200 75 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:30] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:30 +0000] "GET /uploads/product-1774078830406-484587865.webp HTTP/1.1" 200 49154 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:31] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:31 +0000] "PUT /api/inventory/69be3e05fe6261616c6f877d HTTP/1.1" 200 534 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:48] [32minfo[39m: Socket disconnected: eOKXveUV4pf898HIAAAJ — reason: client namespace disconnect
+[2026-03-21 13:10:48] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:48 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:48] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:48 +0000] "GET /api/inventory HTTP/1.1" 200 5628 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:48] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:48 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:48] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:48 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:48] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:48 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:48] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:48 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:52 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:52 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:52 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:52 +0000] "GET /uploads/product-1774078830406-484587865.webp HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:52 +0000] "GET /uploads/product-1774078783693-106177572.webp HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:52] [32mhttp[39m: ::1 - - [21/Mar/2026:07:40:52 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:10:52] [32minfo[39m: Socket connected: uUTVjtdpj4fuCbeIAAAM — total: 2
+[2026-03-21 13:11:01] [32minfo[39m: Socket disconnected: uUTVjtdpj4fuCbeIAAAM — reason: client namespace disconnect
+[2026-03-21 13:11:01] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:01 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:01] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:01 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:01] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:01 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:01] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:01 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:01] [32minfo[39m: Socket connected: UhfW14QuKdTw5C20AAAP — total: 2
+[2026-03-21 13:11:02] [32minfo[39m: Socket disconnected: UhfW14QuKdTw5C20AAAP — reason: client namespace disconnect
+[2026-03-21 13:11:02] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:02 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:02] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:02 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:02] [32minfo[39m: Socket connected: NMjE1GDjme18_MZsAAAS — total: 2
+[2026-03-21 13:11:15] [32minfo[39m: Socket disconnected: NMjE1GDjme18_MZsAAAS — reason: client namespace disconnect
+[2026-03-21 13:11:15] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:15 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:15] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:15 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:15] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:15 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:15] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:15 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:15] [32minfo[39m: Socket connected: 9dK6eUp7uo2rJPO-AAAV — total: 2
+[2026-03-21 13:11:21] [32minfo[39m: Socket disconnected: 9dK6eUp7uo2rJPO-AAAV — reason: client namespace disconnect
+[2026-03-21 13:11:21] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:21 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:21] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:21 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:24] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:24 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:24] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:24 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:25] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:25 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:25] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:25 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:26 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:26 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:26 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:26 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:26 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:26] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:26 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:28] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:28 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:28] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:28 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:28] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:28 +0000] "GET /images/products/almonds.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:28] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:28 +0000] "GET /images/products/cashews.png HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:28] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:28 +0000] "GET /uploads/product-1774078830406-484587865.webp HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:28] [32mhttp[39m: ::1 - - [21/Mar/2026:07:41:28 +0000] "GET /uploads/product-1774078783693-106177572.webp HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-21 13:11:28] [32minfo[39m: Socket connected: jqjZvyETA1hA7jstAAAY — total: 2
+[2026-03-21 13:11:42] [32minfo[39m: Socket disconnected: qQS6BZIW6CdpZosWAAAC — reason: transport close
+[2026-03-21 13:11:42] [32minfo[39m: Socket disconnected: jqjZvyETA1hA7jstAAAY — reason: transport close
+[2026-03-21 13:11:44] [32minfo[39m: Socket connected: YQdF_Pqih5ZokfwfAAAa — total: 1
+[2026-03-21 13:11:44] [32minfo[39m: Socket connected: 6vX386I-6RMQfn1zAAAc — total: 2
+[2026-03-21 18:07:45] [32minfo[39m: Socket disconnected: YQdF_Pqih5ZokfwfAAAa — reason: transport close
+[2026-03-21 18:07:45] [32minfo[39m: Socket disconnected: 6vX386I-6RMQfn1zAAAc — reason: transport close
+[2026-03-21 18:07:47] [32minfo[39m: Socket connected: 6PC2adElK-y7EWoqAAAe — total: 1
+[2026-03-21 18:07:47] [32minfo[39m: Socket connected: 8ZsvnNNAQCxC52yiAAAg — total: 2
+[2026-03-23 09:27:27] [32minfo[39m: Socket disconnected: 6PC2adElK-y7EWoqAAAe — reason: ping timeout
+[2026-03-23 09:27:27] [32minfo[39m: Socket disconnected: 8ZsvnNNAQCxC52yiAAAg — reason: ping timeout
+[2026-03-23 09:27:59] [32minfo[39m: Socket connected: cyAFrIKRAVG-KPtmAAAi — total: 1
+[2026-03-23 09:28:00] [32minfo[39m: Socket connected: O0ZOOiF_AxGLveFrAAAk — total: 2
+[2026-03-23 09:32:55] [32minfo[39m: Socket disconnected: cyAFrIKRAVG-KPtmAAAi — reason: ping timeout
+[2026-03-23 09:32:55] [32minfo[39m: Socket disconnected: O0ZOOiF_AxGLveFrAAAk — reason: ping timeout
+[2026-03-23 09:32:57] [32minfo[39m: Socket connected: fHlnV_9FAfINXa4aAAAm — total: 1
+[2026-03-23 09:32:57] [32minfo[39m: Socket connected: Xxer0BEgXQRr--ZrAAAo — total: 2
+[2026-03-23 09:36:40] [32minfo[39m: Socket disconnected: fHlnV_9FAfINXa4aAAAm — reason: client namespace disconnect
+[2026-03-23 09:36:40] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:40 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:40] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:40 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:40] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:40 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:40] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:40 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:40] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:40 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:40] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:40 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:42] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:42 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:42] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:42 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:42] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:42 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:42] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:42 +0000] "GET /api/billing HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:42] [32minfo[39m: Socket connected: GDvIJ0wxBasUbXe5AAAr — total: 2
+[2026-03-23 09:36:43] [32minfo[39m: Socket disconnected: GDvIJ0wxBasUbXe5AAAr — reason: client namespace disconnect
+[2026-03-23 09:36:43] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:43 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:43] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:43 +0000] "GET /api/locations HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:44] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:44 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:44] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:44 +0000] "GET /api/auth/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:45] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:45 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:45] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:45 +0000] "GET /api/notifications?limit=50 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:46] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:46 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:46] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:46 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:46] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:46 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:46] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:46 +0000] "GET /api/inventory/low-stock HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:46] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:46 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:36:46] [32mhttp[39m: ::1 - - [23/Mar/2026:04:06:46 +0000] "GET /api/billing?limit=8 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-23 09:37:29] [32minfo[39m: Socket disconnected: Xxer0BEgXQRr--ZrAAAo — reason: transport close
+[2026-03-23 10:40:03] [32minfo[39m: Socket.io initialized
+[2026-03-23 10:40:03] [32minfo[39m: MongoDB connected: localhost
+[2026-03-23 10:40:03] [32minfo[39m: 🚀 Server running on port 5001 [development]
+[2026-03-23 10:40:03] [32minfo[39m: 📡 Socket.io ready for real-time connections
+[2026-03-23 10:40:03] [32minfo[39m: 🔗 Health check: http://localhost:5001/health
+[2026-03-23 10:40:12] [32minfo[39m: Socket connected: KyL29YCKj9dXY3LLAAAC — total: 1
+[2026-03-23 10:40:44] [32minfo[39m: User logged in: admin@inventory.com
+[2026-03-23 10:40:44] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:44 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:44] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:44 +0000] "GET /api/auth/me HTTP/1.1" 200 225 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:44] [32minfo[39m: Socket connected: l6lwNaDWfFhjMfdpAAAF — total: 2
+[2026-03-23 10:40:45] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:45 +0000] "GET /api/inventory HTTP/1.1" 200 5628 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:45] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:45 +0000] "GET /uploads/product-1774078830406-484587865.webp HTTP/1.1" 200 49154 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:45] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:45 +0000] "GET /images/products/almonds.png HTTP/1.1" 200 53157 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:45] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:45 +0000] "GET /images/products/cashews.png HTTP/1.1" 200 55073 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:45] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:45 +0000] "GET /uploads/product-1774078783693-106177572.webp HTTP/1.1" 200 150082 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:45] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:45 +0000] "GET /uploads/product-1774078319643-769140372.webp HTTP/1.1" 200 268014 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:49] [32minfo[39m: Socket disconnected: l6lwNaDWfFhjMfdpAAAF — reason: client namespace disconnect
+[2026-03-23 10:40:49] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:49 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:49] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:49 +0000] "GET /api/inventory HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:40:49] [32minfo[39m: Socket connected: ZWNjEVs8ERMdZZ7bAAAI — total: 2
+[2026-03-23 10:40:49] [32mhttp[39m: ::1 - - [23/Mar/2026:05:10:49 +0000] "GET /api/billing HTTP/1.1" 200 10160 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+[2026-03-23 10:41:29] [32minfo[39m: Socket disconnected: KyL29YCKj9dXY3LLAAAC — reason: transport close

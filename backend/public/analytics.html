@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Analytics — Smart Inventory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    /* ═══ Reset & Tokens ═══ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:           #0b0f1a;
+      --bg-card:      #111827;
+      --bg-card-alt:  #1a2235;
+      --border:       #1f2937;
+      --border-light: #374151;
+      --text:         #f1f5f9;
+      --text-sub:     #94a3b8;
+      --primary:      #6366f1;
+      --primary-glow: rgba(99,102,241,.25);
+      --success:      #10b981;
+      --success-bg:   rgba(16,185,129,.12);
+      --warning:      #f59e0b;
+      --warning-bg:   rgba(245,158,11,.12);
+      --danger:       #ef4444;
+      --danger-bg:    rgba(239,68,68,.12);
+      --info:         #38bdf8;
+      --font:         'Inter', system-ui, sans-serif;
+      --radius:       14px;
+      --radius-sm:    8px;
+    }
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+    a { color: var(--primary); text-decoration: none; }
+
+    /* ═══ Login Overlay ═══ */
+    #login-overlay {
+      position: fixed; inset: 0; z-index: 1000;
+      background: var(--bg);
+      display: flex; justify-content: center; align-items: center;
+    }
+    .login-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 40px; width: 380px;
+      text-align: center;
+    }
+    .login-card h1 { font-size: 24px; margin-bottom: 6px; }
+    .login-card p  { color: var(--text-sub); font-size: 13px; margin-bottom: 28px; }
+    .login-card input {
+      display: block; width: 100%; padding: 12px 16px; margin-bottom: 14px;
+      background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm);
+      color: var(--text); font-size: 14px;
+    }
+    .login-card input::placeholder { color: var(--text-sub); }
+    .login-card button {
+      width: 100%; padding: 13px; background: var(--primary); color: #fff;
+      border: none; border-radius: var(--radius-sm); font-weight: 700;
+      font-size: 15px; cursor: pointer; transition: .2s;
+    }
+    .login-card button:hover { filter: brightness(1.15); }
+    .login-error { color: var(--danger); font-size: 13px; margin-top: 10px; }
+
+    /* ═══ Layout ═══ */
+    .topbar {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 18px 28px; background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+    .topbar h1 { font-size: 18px; font-weight: 800; letter-spacing: -.3px; }
+    .topbar h1 span { color: var(--primary); }
+    .topbar-right { display: flex; align-items: center; gap: 14px; }
+    .topbar select {
+      background: var(--bg); border: 1px solid var(--border); color: var(--text);
+      padding: 7px 14px; border-radius: var(--radius-sm); font-size: 13px;
+    }
+    .btn-sm {
+      padding: 7px 16px; border-radius: var(--radius-sm); font-weight: 600;
+      font-size: 12px; cursor: pointer; border: 1px solid var(--border);
+      background: var(--bg-card); color: var(--text-sub); transition: .2s;
+    }
+    .btn-sm:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+    .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+    /* ═══ Grid ═══ */
+    .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(460px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 16px; margin-bottom: 24px; }
+
+    /* ═══ Card ═══ */
+    .card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 22px; position: relative;
+      overflow: hidden; transition: border-color .25s;
+    }
+    .card:hover { border-color: var(--border-light); }
+    .card-title {
+      font-size: 12px; font-weight: 700; color: var(--text-sub);
+      text-transform: uppercase; letter-spacing: .8px; margin-bottom: 14px;
+    }
+    .card-glow {
+      position: absolute; width: 120px; height: 120px; border-radius: 50%;
+      filter: blur(50px); opacity: .12; pointer-events: none; top: -30px; right: -30px;
+    }
+
+    /* ═══ Stat Cards ═══ */
+    .stat-card { position: relative; }
+    .stat-icon {
+      width: 42px; height: 42px; border-radius: 10px; display: flex;
+      justify-content: center; align-items: center; font-size: 20px;
+      margin-bottom: 14px;
+    }
+    .stat-value { font-size: 28px; font-weight: 900; letter-spacing: -.5px; }
+    .stat-label { font-size: 12px; color: var(--text-sub); margin-top: 4px; font-weight: 500; }
+    .stat-badge {
+      display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 8px;
+      border-radius: 6px; margin-top: 8px;
+    }
+
+    /* ═══ Health Gauge ═══ */
+    .health-gauge { text-align: center; padding: 30px 20px; }
+    .gauge-circle {
+      width: 140px; height: 140px; border-radius: 50%; margin: 0 auto 16px;
+      display: flex; justify-content: center; align-items: center;
+      font-size: 38px; font-weight: 900;
+      border: 6px solid var(--border);
+      position: relative;
+    }
+    .gauge-rating { font-size: 14px; font-weight: 700; margin-top: 4px; }
+    .gauge-sub { font-size: 12px; color: var(--text-sub); margin-top: 6px; }
+
+    /* ═══ Table ═══ */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; font-weight: 700; color: var(--text-sub); padding: 10px 12px;
+         border-bottom: 1px solid var(--border); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+    td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    .badge {
+      display: inline-block; padding: 3px 10px; border-radius: 6px;
+      font-size: 11px; font-weight: 700; text-transform: capitalize;
+    }
+    .badge-critical { background: var(--danger-bg); color: var(--danger); }
+    .badge-warning  { background: var(--warning-bg); color: var(--warning); }
+    .badge-attention { background: rgba(56,189,248,.12); color: var(--info); }
+    .badge-normal   { background: var(--success-bg); color: var(--success); }
+    .badge-rising   { background: var(--success-bg); color: var(--success); }
+    .badge-stable   { background: rgba(148,163,184,.12); color: var(--text-sub); }
+    .badge-declining{ background: var(--danger-bg); color: var(--danger); }
+
+    /* ═══ Chart ═══ */
+    .chart-container { position: relative; height: 280px; }
+    .chart-container-sm { position: relative; height: 220px; }
+
+    /* ═══ Rank bar ═══ */
+    .rank-item { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+    .rank-pos { font-size: 13px; font-weight: 800; width: 24px; color: var(--text-sub); }
+    .rank-bar-bg { flex: 1; height: 30px; background: var(--bg); border-radius: var(--radius-sm); overflow: hidden; position: relative; }
+    .rank-bar { height: 100%; border-radius: var(--radius-sm); display: flex; align-items: center; padding: 0 12px; font-size: 12px; font-weight: 600; min-width: 80px; }
+    .rank-revenue { font-size: 13px; font-weight: 700; width: 90px; text-align: right; }
+
+    /* ═══ Loading ═══ */
+    .loading { display: flex; justify-content: center; align-items: center; height: 300px; }
+    .spinner { width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--primary);
+               border-radius: 50%; animation: spin .8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ═══ Responsive ═══ */
+    @media (max-width: 768px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      .container { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ LOGIN ═══ -->
+<div id="login-overlay">
+  <div class="login-card">
+    <div style="font-size: 36px; margin-bottom: 12px;">📊</div>
+    <h1>AI Analytics</h1>
+    <p>Sign in with your admin account to access analytics</p>
+    <input id="login-email" type="email" placeholder="admin@inventory.com" />
+    <input id="login-password" type="password" placeholder="Password" />
+    <button onclick="handleLogin()">Sign In</button>
+    <div id="login-error" class="login-error" style="display:none;"></div>
+  </div>
+</div>
+
+<!-- ═══ DASHBOARD ═══ -->
+<div id="app" style="display:none;">
+  <div class="topbar">
+    <h1>📊 <span>AI</span> Analytics Dashboard</h1>
+    <div class="topbar-right">
+      <select id="period-select" onchange="loadDashboard()">
+        <option value="7">Last 7 Days</option>
+        <option value="14">Last 14 Days</option>
+        <option value="30" selected>Last 30 Days</option>
+        <option value="60">Last 60 Days</option>
+        <option value="90">Last 90 Days</option>
+      </select>
+      <button class="btn-sm" onclick="loadDashboard()">↻ Refresh</button>
+      <button class="btn-sm" onclick="handleLogout()">Logout</button>
+    </div>
+  </div>
+
+  <div class="container" id="main-content">
+    <div class="loading"><div class="spinner"></div></div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════════════════
+// GLOBALS
+// ═══════════════════════════════════════════════════════════════════════════════
+const BASE = window.location.origin + '/api';
+let TOKEN = '';
+let charts = {};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// AUTH
+// ═══════════════════════════════════════════════════════════════════════════════
+async function handleLogin() {
+  const email = document.getElementById('login-email').value;
+  const pass  = document.getElementById('login-password').value;
+  const errEl = document.getElementById('login-error');
+  errEl.style.display = 'none';
+  try {
+    const res = await fetch(`${BASE}/auth/login`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password: pass }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.message || 'Login failed');
+    TOKEN = data.token;
+    localStorage.setItem('analytics_token', TOKEN);
+    document.getElementById('login-overlay').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    loadDashboard();
+  } catch (e) {
+    errEl.textContent = e.message;
+    errEl.style.display = 'block';
+  }
+}
+
+function handleLogout() {
+  TOKEN = '';
+  localStorage.removeItem('analytics_token');
+  location.reload();
+}
+
+// Restore session
+(function restoreSession() {
+  const t = localStorage.getItem('analytics_token');
+  if (t) {
+    TOKEN = t;
+    document.getElementById('login-overlay').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    loadDashboard();
+  }
+})();
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// API HELPER
+// ═══════════════════════════════════════════════════════════════════════════════
+async function api(path) {
+  const res = await fetch(`${BASE}${path}`, { headers: { Authorization: `Bearer ${TOKEN}` } });
+  if (res.status === 401) { handleLogout(); throw new Error('Session expired'); }
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.message);
+  return data.data;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// RENDER DASHBOARD
+// ═══════════════════════════════════════════════════════════════════════════════
+async function loadDashboard() {
+  const container = document.getElementById('main-content');
+  container.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+
+  try {
+    const days = document.getElementById('period-select').value;
+    const d = await api(`/analytics/dashboard?days=${days}`);
+    renderDashboard(d, days);
+  } catch (e) {
+    container.innerHTML = `<div style="text-align:center;padding:60px;color:var(--danger)">Error: ${e.message}</div>`;
+  }
+}
+
+function renderDashboard(d, days) {
+  // Destroy existing charts
+  Object.values(charts).forEach(c => c.destroy());
+  charts = {};
+
+  const rt = d.revenueTrends;
+  const ih = d.inventoryHealth;
+  const seg = d.segmentation;
+
+  // Gauge color
+  const gc = ih.score >= 80 ? 'var(--success)' : ih.score >= 50 ? 'var(--warning)' : 'var(--danger)';
+
+  document.getElementById('main-content').innerHTML = `
+    <!-- ─── ROW 1: Stats ─── -->
+    <div class="grid-4">
+      ${statCard('💰', 'Total Revenue', `₹${rt.summary.totalRevenue.toLocaleString()}`, `${days}d period`, 'primary', rt.trend.direction === 'increasing' ? `↑ Trending up` : rt.trend.direction === 'decreasing' ? '↓ Trending down' : '→ Stable')}
+      ${statCard('📦', 'Total Orders', rt.summary.totalOrders, `${days}d period`, 'info')}
+      ${statCard('📊', 'Avg Daily Revenue', `₹${rt.summary.avgDailyRevenue.toLocaleString()}`, 'Avg / day', 'success')}
+      <div class="card stat-card health-gauge">
+        <div class="gauge-circle" style="border-color:${gc};">
+          <span style="color:${gc}">${ih.score}</span>
+        </div>
+        <div class="gauge-rating" style="color:${gc}">${ih.rating}</div>
+        <div class="gauge-sub">${ih.totalProducts} products • ${ih.lowStockProducts} low • ${ih.outOfStockProducts} out</div>
+      </div>
+    </div>
+
+    <!-- ─── ROW 2: Revenue Chart + Top Products ─── -->
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">Revenue Trend & Forecast</div>
+        <div class="card-glow" style="background:var(--primary)"></div>
+        <div class="chart-container"><canvas id="revenueChart"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Top Selling Products</div>
+        <div id="top-products-list"></div>
+      </div>
+    </div>
+
+    <!-- ─── ROW 3: Demand + Segmentation ─── -->
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-title">Payment Distribution</div>
+        <div class="chart-container-sm"><canvas id="paymentChart"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Order Size Segments</div>
+        <div class="chart-container-sm"><canvas id="sizeChart"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Peak Hours Analysis</div>
+        <div class="chart-container-sm"><canvas id="hourlyChart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- ─── ROW 4: Demand Prediction Table ─── -->
+    <div class="card" style="margin-bottom:24px">
+      <div class="card-title">🧠 AI Demand Prediction & Stockout Forecast</div>
+      <div class="card-glow" style="background:var(--warning)"></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Product</th><th>Avg Daily Sales</th><th>Trend</th>
+            <th>7d Predicted Demand</th><th>Current Stock</th>
+            <th>Days Until Stockout</th><th>Urgency</th>
+          </tr></thead>
+          <tbody>${d.demandPrediction.map(dp => `<tr>
+            <td style="font-weight:600">${dp.productName}</td>
+            <td>${dp.avgDailySales}</td>
+            <td><span class="badge badge-${dp.trend}">${dp.trend}</span></td>
+            <td>${dp.predicted7dDemand}</td>
+            <td>${dp.currentStock}</td>
+            <td style="font-weight:700">${dp.daysUntilStockout >= 999 ? '∞' : dp.daysUntilStockout}</td>
+            <td><span class="badge badge-${dp.urgency}">${dp.urgency}</span></td>
+          </tr>`).join('')}</tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ─── ROW 5: Restocking Alerts ─── -->
+    <div class="card" style="margin-bottom:24px">
+      <div class="card-title">🔔 AI Restocking Alerts & Recommendations</div>
+      <div class="card-glow" style="background:var(--danger)"></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Product</th><th>RFID</th><th>Current</th><th>Threshold</th>
+            <th>Daily Sales</th><th>Days Left</th><th>Restock Qty</th>
+            <th>Severity</th><th>Recommendation</th>
+          </tr></thead>
+          <tbody>${d.restockAlerts.map(ra => `<tr>
+            <td style="font-weight:600">${ra.productName}</td>
+            <td style="font-family:monospace;font-size:11px;color:var(--text-sub)">${ra.rfid}</td>
+            <td>${ra.currentWeight}</td>
+            <td>${ra.lowStockThreshold}</td>
+            <td>${ra.avgDailySales}</td>
+            <td style="font-weight:700">${ra.daysOfStockRemaining >= 999 ? '∞' : ra.daysOfStockRemaining}</td>
+            <td style="color:var(--primary);font-weight:700">${ra.recommendedRestockQty}</td>
+            <td><span class="badge badge-${ra.severity}">${ra.severity}</span></td>
+            <td style="font-size:12px;max-width:220px">${ra.message}</td>
+          </tr>`).join('')}</tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ─── ROW 6: Category Breakdown ─── -->
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">Category Health</div>
+        <div class="chart-container-sm"><canvas id="categoryChart"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Revenue Forecast (Next 7 Days)</div>
+        <div class="chart-container-sm"><canvas id="forecastChart"></canvas></div>
+      </div>
+    </div>
+
+    <div style="text-align:center;padding:16px;color:var(--text-sub);font-size:12px;">
+      Smart Inventory AI Analytics • Powered by MERN Stack • Data period: ${days} days
+    </div>
+  `;
+
+  // Render all charts
+  renderRevenueChart(rt);
+  renderTopProducts(d.topProducts);
+  renderPaymentChart(seg.byPayment);
+  renderSizeChart(seg.bySize);
+  renderHourlyChart(seg.hourlyDistribution);
+  renderCategoryChart(ih.categoryBreakdown);
+  renderForecastChart(rt);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CHART RENDERERS
+// ═══════════════════════════════════════════════════════════════════════════════
+const chartDefaults = {
+  responsive: true, maintainAspectRatio: false,
+  plugins: { legend: { labels: { color: '#94a3b8', font: { family: 'Inter' } } } },
+  scales: {
+    x: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1f2937' } },
+    y: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1f2937' } },
+  },
+};
+
+function renderRevenueChart(rt) {
+  const ctx = document.getElementById('revenueChart');
+  charts.revenue = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: rt.daily.map(d => d.date.slice(5)),
+      datasets: [
+        { label: 'Revenue', data: rt.daily.map(d => d.revenue), borderColor: '#6366f1', backgroundColor: 'rgba(99,102,241,.1)', fill: true, tension: .3, pointRadius: 2 },
+        { label: '7d Moving Avg', data: rt.daily.map(d => d.movingAvg7d), borderColor: '#f59e0b', borderDash: [5,5], tension: .3, pointRadius: 0 },
+      ],
+    },
+    options: { ...chartDefaults },
+  });
+}
+
+function renderTopProducts(products) {
+  const el = document.getElementById('top-products-list');
+  if (!products.length) { el.innerHTML = '<p style="color:var(--text-sub)">No sales data</p>'; return; }
+  const max = products[0].totalRevenue || 1;
+  const colors = ['#6366f1','#8b5cf6','#a78bfa','#c4b5fd','#38bdf8','#10b981','#f59e0b','#f97316','#ef4444','#ec4899'];
+  el.innerHTML = products.map((p, i) => `
+    <div class="rank-item">
+      <span class="rank-pos">#${p.rank}</span>
+      <div class="rank-bar-bg">
+        <div class="rank-bar" style="width:${(p.totalRevenue / max * 100).toFixed(0)}%;background:${colors[i] || colors[0]}">
+          ${p.productName}
+        </div>
+      </div>
+      <span class="rank-revenue">₹${p.totalRevenue.toLocaleString()}</span>
+    </div>
+  `).join('');
+}
+
+function renderPaymentChart(data) {
+  const ctx = document.getElementById('paymentChart');
+  charts.payment = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: data.map(d => d._id?.toUpperCase() || 'OTHER'),
+      datasets: [{ data: data.map(d => d.totalRevenue), backgroundColor: ['#6366f1','#38bdf8','#10b981','#f59e0b','#ef4444'], borderWidth: 0, borderRadius: 4 }],
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', padding: 14, font: { family: 'Inter', size: 11 } } } } },
+  });
+}
+
+function renderSizeChart(data) {
+  const ctx = document.getElementById('sizeChart');
+  const order = { small: 0, medium: 1, large: 2 };
+  data.sort((a, b) => (order[a._id] ?? 9) - (order[b._id] ?? 9));
+  charts.size = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: data.map(d => (d._id || 'other').toUpperCase()),
+      datasets: [
+        { label: 'Orders', data: data.map(d => d.count), backgroundColor: '#6366f1', borderRadius: 6, barPercentage: .5 },
+        { label: 'Revenue', data: data.map(d => d.totalRevenue), backgroundColor: '#10b981', borderRadius: 6, barPercentage: .5 },
+      ],
+    },
+    options: { ...chartDefaults },
+  });
+}
+
+function renderHourlyChart(data) {
+  const ctx = document.getElementById('hourlyChart');
+  charts.hourly = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: data.map(d => d.label),
+      datasets: [{ label: 'Transactions', data: data.map(d => d.count), backgroundColor: data.map(d => d.count > 0 ? '#6366f1' : '#1f2937'), borderRadius: 4, barPercentage: .7 }],
+    },
+    options: { ...chartDefaults, plugins: { legend: { display: false } } },
+  });
+}
+
+function renderCategoryChart(cats) {
+  const ctx = document.getElementById('categoryChart');
+  if (!cats || !cats.length) return;
+  charts.category = new Chart(ctx, {
+    type: 'polarArea',
+    data: {
+      labels: cats.map(c => c.category),
+      datasets: [{ data: cats.map(c => c.totalWeight), backgroundColor: ['rgba(99,102,241,.6)','rgba(16,185,129,.6)','rgba(245,158,11,.6)','rgba(56,189,248,.6)','rgba(239,68,68,.6)','rgba(168,85,247,.6)'], borderWidth: 0 }],
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: '#94a3b8', font: { family: 'Inter', size: 11 } } } },
+      scales: { r: { ticks: { color: '#64748b' }, grid: { color: '#1f2937' } } } },
+  });
+}
+
+function renderForecastChart(rt) {
+  const ctx = document.getElementById('forecastChart');
+  const histLabels = rt.daily.slice(-7).map(d => d.date.slice(5));
+  const histData   = rt.daily.slice(-7).map(d => d.revenue);
+  const foreLabels = rt.forecast.map(f => f.date.slice(5));
+  const foreData   = rt.forecast.map(f => f.predictedRevenue);
+
+  charts.forecast = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: [...histLabels, ...foreLabels],
+      datasets: [
+        { label: 'Actual', data: [...histData, ...Array(foreLabels.length).fill(null)], borderColor: '#6366f1', pointRadius: 3, tension: .3 },
+        { label: 'Forecast', data: [...Array(histLabels.length - 1).fill(null), histData[histData.length - 1], ...foreData], borderColor: '#10b981', borderDash: [5,5], pointRadius: 3, tension: .3, backgroundColor: 'rgba(16,185,129,.08)', fill: true },
+      ],
+    },
+    options: { ...chartDefaults },
+  });
+}
+
+// ═══ Helper ═══
+function statCard(icon, label, value, sub, color, trendText) {
+  const colorVar = `var(--${color})`;
+  const bg = color === 'primary' ? 'var(--primary-glow)' : color === 'success' ? 'var(--success-bg)' : color === 'warning' ? 'var(--warning-bg)' : color === 'danger' ? 'var(--danger-bg)' : 'rgba(56,189,248,.12)';
+  return `<div class="card stat-card">
+    <div class="card-glow" style="background:${colorVar}"></div>
+    <div class="stat-icon" style="background:${bg};color:${colorVar}">${icon}</div>
+    <div class="stat-value">${value}</div>
+    <div class="stat-label">${label} • ${sub}</div>
+    ${trendText ? `<span class="stat-badge" style="background:${bg};color:${colorVar}">${trendText}</span>` : ''}
+  </div>`;
+}
+</script>
+</body>
+</html>

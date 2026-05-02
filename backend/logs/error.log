@@ -1,0 +1,11 @@
+[2026-03-18 12:40:04] [31merror[39m: MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-18 12:40:26] [31merror[39m: MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-18 12:46:04] [31merror[39m: MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-18 14:35:43] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:40:23] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:42:42] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:42:42] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:49:11] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:50:27] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-18 14:51:38] [31merror[39m: [POST] /api/auth/login → 401: Invalid credentials
+[2026-03-21 12:39:06] [31merror[39m: [PUT] /api/auth/users/69be3e04fe6261616c6f8773/role → 422: `stockManager` is not a valid enum value for path `role`.
