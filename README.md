@@ -25,9 +25,9 @@ This project solves these issues using **IoT automation + real-time data systems
 
 ---
 
-# 🧠 System Evolution
+# 🧠 System Architecture
 
-## 🔷 Phase 1: Current System (Implemented)
+## 🔷 Phase 1: Initial Prototype (Firebase)
 
 ### 📊 Architecture
 
@@ -63,9 +63,9 @@ IoT Devices (ESP32 + Load Cell + RFID)
 
 ---
 
-## 🔥 Phase 2: Upgraded System (MERN + Mobile)
+## 🔥 Phase 2: Current System (MERN + Mobile)
 
-### 📊 Target Architecture
+### 📊 Architecture
 
 ```
 IoT Devices (ESP32)
@@ -190,46 +190,62 @@ mobile/
 | Mobile Support  | ❌              | ✅                  |
 | Architecture    | Basic          | Distributed System |
 
----
 
-# 🚀 Future Enhancements
+# 🛠️ Setup & Installation
 
-* AI/ML for demand prediction
-* Digital Twin simulation
-* Advanced analytics dashboard
-* Cloud deployment (AWS/Azure)
-* Smart alerts & notifications
+## Prerequisites
+- Node.js v18+
+- MongoDB (local or Atlas)
+- Expo CLI (for mobile)
 
----
+## 1. Clone the Repository
+git clone https://github.com/Murtuza237/[your-repo-name].git
+cd smart-inventory-system
 
-# 🛠️ Setup (Planned)
-
-## Backend
-
-```
+## 2. Backend Setup
 cd backend
 npm install
+
+# Create .env file
+cp .env.example .env
+# Add your MongoDB URI and JWT secret in .env
+
 npm run dev
-```
+# Server runs on http://localhost:5000
 
-## Mobile
+## 3. Web App Setup
+cd web
+npm install
+npm start
+# Runs on http://localhost:3000
 
-```
+## 4. Mobile App Setup
 cd mobile
 npm install
 npx expo start
-```
+# Scan QR code with Expo Go app
 
-## Desktop
-
-```
-cd desktop
-npm install
-npm run electron
-```
+## 5. IoT Device
+- Flash the ESP32 firmware from /iot folder
+- Update WiFi credentials and backend API URL in config.h
+- Device will auto-connect and start sending sensor data
 
 ---
 
+# ✅ Features
+
+| Feature | Status |
+|---|---|
+| Real-time weight monitoring via IoT sensors | ✅ |
+| MERN full-stack web dashboard | ✅ |
+| Low-stock alerts | ✅ |
+| Automated billing system | ✅ |
+| Mobile app (React Native + Expo) | ✅ |
+| Role-based access (Admin / Stock Manager) | ✅ |
+| Live inventory updates via Socket.io | ✅ |
+| Demand forecasting (ML) | 🔜 Coming soon |
+| Power BI analytics dashboard | 🔜 Coming soon |
+| NL-to-query interface | 🔜 Coming soon |
 # 📌 Vision
 
 To transform a basic IoT prototype into a scalable, intelligent, multi-platform inventory ecosystem.
